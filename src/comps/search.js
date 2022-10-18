@@ -1,11 +1,13 @@
-import React, {Component , useState }  from 'react';
+import axios from 'axios';
+import React, {Component  }  from 'react';
 
 class Search extends Component{
-    render(){
+    Ar = [];
+    render(){       
   return(
     <div className='container'>Search work</div> 
   )
     }
 }
 
-export default Search
+export default Search 
