@@ -1,9 +1,11 @@
-import React, { useState }  from 'react';
+import React, {Component , useState }  from 'react';
 
-function Search(props){
+class Search extends Component{
+    render(){
   return(
     <div className='container'>Search work</div> 
   )
+    }
 }
 
 export default Search

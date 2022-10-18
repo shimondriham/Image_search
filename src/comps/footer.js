@@ -1,9 +1,12 @@
-import React from 'react'
+import React , {Component} from 'react'
 
-function Footer(props) {
-    return (
+class Footer extends Component{
+    render(){
+       return (
         <div className='container text-center bg-dark text-light'>All rights reserved to Shimon Dariham</div>
-    )
+    )   
+    }
+  
 }
 
 export default Footer
