@@ -1,10 +1,14 @@
 import './App.css';
+import Footer from './comps/footer';
+import Header from './comps/header';
+import Search from './comps/search';
 
-function App() {
+function App(props) {
   return (
     <div className="container">
-     <h4 className=''>test</h4>
-     <h5 className=''>test_1</h5>
+      <Header />
+      <Search />
+      <Footer />
     </div>
   );
 }
